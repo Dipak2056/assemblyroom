@@ -68,6 +68,7 @@
   cursor: pointer;
   border-radius: 5px;
   margin: 1px;
+  text-decoration: none;
 }
 .assembly {
   background-color: #61dafb;
@@ -144,6 +145,10 @@
 .clockingheader {
   margin-top: 0px;
   align-self: flex-start;
+  color: #fff;
+  font-size: 1.5rem;
+  background-color: #ed8a0a;
+  border-radius: 5px;
 }
 .clockingbody {
   display: flex;
@@ -179,14 +184,14 @@ button {
   border: 1px solid #00bbf0;
   border-radius: 5px;
   margin-top: 10px;
-  background-color: #e3f6f5;
+  background-color: #9bdfdc;
   padding: 5px;
 }
 table {
   width: 100%;
 }
 th {
-  color: #ffffff;
+  color: #163a5f;
 }
 .in-shift::before {
   content: "Today we have these members";

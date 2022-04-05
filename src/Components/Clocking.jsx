@@ -4,7 +4,7 @@ const Clocking = () => {
   return (
     <div className="clockingpage">
       <div className="clockingheader">
-        <h3>Please fill the form to clock-in👨🏾</h3>
+        <h3>📂Please fill the form to clock-in👨🏾</h3>
       </div>
       <div className="clockingbody">
         <form className="form">
@@ -24,13 +24,13 @@ const Clocking = () => {
         </form>
         <div className="in-shift">
           <table>
-            <tr>
+            <thead>
               <th>Name</th>
               <th>Start-Time</th>
               <th>End-Time</th>
               <th>End-shift</th>
               <th>Total Hours</th>
-            </tr>
+            </thead>
             <tr>
               <td>Dipak</td>
               <td>4:55</td>
